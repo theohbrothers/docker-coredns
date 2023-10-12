@@ -4,7 +4,9 @@
 [![github-release](https://img.shields.io/github/v/release/theohbrothers/docker-coredns?style=flat-square)](https://github.com/theohbrothers/docker-coredns/releases/)
 [![docker-image-size](https://img.shields.io/docker/image-size/theohbrothers/docker-coredns/latest)](https://hub.docker.com/r/theohbrothers/docker-coredns)
 
-Dockerized [coredns](https://github.com/coredns/coredns) based on alpine.
+Dockerized [coredns](https://github.com/coredns/coredns).
+
+Whereas [official coredns docker image](https://hub.docker.com/r/coredns/coredns) is based on a scratch image, this image based on Alpine. This slight improvement enables shell scripts to be used as the entrypoint, to help to dynamically generate `coredns` config files, and help with debugging. The `coredns` binaries are sourced from their official images.
 
 ## Tags
 
