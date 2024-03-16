@@ -1,7 +1,7 @@
 @"
 # docker-coredns
 
-[![github-actions](https://github.com/theohbrothers/docker-coredns/workflows/ci-master-pr/badge.svg)](https://github.com/theohbrothers/docker-coredns/actions)
+[![github-actions](https://github.com/theohbrothers/docker-coredns/actions/workflows/ci-master-pr.yml/badge.svg?branch=master)](https://github.com/theohbrothers/docker-coredns/actions/workflows/ci-master-pr.yml)
 [![github-release](https://img.shields.io/github/v/release/theohbrothers/docker-coredns?style=flat-square)](https://github.com/theohbrothers/docker-coredns/releases/)
 [![docker-image-size](https://img.shields.io/docker/image-size/theohbrothers/docker-coredns/latest)](https://hub.docker.com/r/theohbrothers/docker-coredns)
 
