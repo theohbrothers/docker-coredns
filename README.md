@@ -12,7 +12,8 @@ Whereas [official coredns docker image](https://hub.docker.com/r/coredns/coredns
 
 | Tag | Dockerfile Build Context |
 |:-------:|:---------:|
-| `:1.11.3`, `:latest` | [View](variants/1.11.3) |
+| `:1.12.0`, `:latest` | [View](variants/1.12.0) |
+| `:1.11.3` | [View](variants/1.11.3) |
 | `:1.10.1` | [View](variants/1.10.1) |
 | `:1.9.4` | [View](variants/1.9.4) |
 | `:1.8.7` | [View](variants/1.8.7) |
