@@ -27,6 +27,10 @@ Whereas [official coredns docker image](https://hub.docker.com/r/coredns/coredns
 | `:1.0.6` | [View](variants/1.0.6) |
 | `:0.9.10` | [View](variants/0.9.10) |
 
+All images contain:
+
+- `inotify-tools` which is useful for runtime dynamic configuration
+
 ## Development
 
 Requires Windows `powershell` or [`pwsh`](https://github.com/PowerShell/PowerShell).

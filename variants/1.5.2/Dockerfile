@@ -10,6 +10,8 @@ RUN set -eux; \
 
 RUN apk add --no-cache ca-certificates
 
+RUN apk add --no-cache inotify-tools
+
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x docker-entrypoint.sh
 EXPOSE 53/tcp 53/udp

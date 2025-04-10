@@ -28,6 +28,10 @@ $(
     }
 }) -join ''
 )
+All images contain:
+
+- ``inotify-tools`` which is useful for runtime dynamic configuration
+
 
 "@
 
